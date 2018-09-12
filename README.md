@@ -10,10 +10,7 @@ hyperedges in the embedding space.
 python main.py data_path output_path learning_rate epoch_number
 
 # Input
-Nxd node features for each type
-Known edges, sampled unknown hyperedges in list format.  
-Sparse adjacency matrix
-This implementation is for a network for three different types.
+Nxd node features for each type, known edges, sampled unknown hyperedges in list format, sparse adjacency matrix. This implementation is for a network for three different types.
 
 # Reference
 Inci M. Baytas, Cao Xiao, Fei Wang, Anil K. Jain, Jiayu Zhou, "Heterogeneous Hyper-Network Embedding", ICDM 2018 (accepted).
