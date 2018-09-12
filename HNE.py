@@ -6,7 +6,6 @@ class HNE(object):
         var = tf.get_variable(name, shape=[input_dim, output_dim],
                                initializer=tf.random_normal_initializer(0.0, 0.1), regularizer=reg)
         return var
-        # tf.contrib.layers.variance_scaling_initializer(factor=1.0, mode='FAN_AVG',uniform=True, seed=None,dtype=tf.float32)
 
     def init_bias(self, output_dim, name):
         var =  tf.get_variable(name, shape=[output_dim], initializer=tf.constant_initializer(0.0))
